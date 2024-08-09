@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainFragment"
+        android:enabled="true"
+        android:icon="@drawable/baseline_360_24"
+        android:title="first"/>
+    <item
+        android:id="@+id/secondFragment"
+        android:enabled="true"
+        android:icon="@drawable/baseline_accessibility_24"
+        android:title="second"/>
+    <item
+        android:id="@+id/thirdFragment"
+        android:enabled="true"
+        android:icon="@drawable/baseline_add_call_24"
+        android:title="third"/>
+
+</menu>

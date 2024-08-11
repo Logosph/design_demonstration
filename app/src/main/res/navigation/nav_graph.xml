@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="ru.logosph.design_demonstration.MainFragment"
+        android:name="ru.logosph.design_demonstration.presenter.fragments.main.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
 
     <fragment
         android:id="@+id/thirdFragment"
-        android:name="ru.logosph.design_demonstration.ThirdFragment"
+        android:name="ru.logosph.design_demonstration.presenter.fragments.ThirdFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_third" />
 
     <fragment
         android:id="@+id/secondFragment"
-        android:name="ru.logosph.design_demonstration.SecondFragment"
+        android:name="ru.logosph.design_demonstration.presenter.fragments.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" />
 </navigation>

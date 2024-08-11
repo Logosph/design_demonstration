@@ -1,15 +1,13 @@
-package ru.logosph.design_demonstration
+package ru.logosph.design_demonstration.presenter
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import ru.logosph.design_demonstration.R
 import ru.logosph.design_demonstration.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
